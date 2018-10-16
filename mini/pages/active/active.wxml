@@ -1,0 +1,15 @@
+<!--pages/active/active.wxml-->
+<view class='activeBody'>
+  <view class='loginTime'>
+    <view wx:for="{{time}}" class="{{item.select==1?'selected':''}}">
+      {{item.time}}
+    </view>
+  </view>
+  <view class='explainLogin'>
+    <view>• 连续登陆3天，奖励30贡献度</view>
+    <view>• 连续登陆5天，奖励50贡献度</view>
+    <view>• 连续登陆7天，奖励200贡献度</view>
+    <view>• 活动日期：2018-9-11至2018-9-23</view>
+    <view>• 若有一天未登陆，再次登录时，重新计算</view>
+  </view>
+</view>

@@ -1,0 +1,95 @@
+/* pages/my.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqggbg.png);
+  background-size: 100%;
+  padding-top: 40rpx;
+}
+.banner {
+  width: 670rpx;
+  height: 400rpx;
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/gerenbg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  padding-top: 40rpx;
+}
+.avatar {
+  text-align: center;
+}
+.avatar-wrapper {
+  position: relative;
+  width: 150rpx;
+  height: 150rpx;
+  margin: 0 auto;
+}
+.avatar-image {
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+  margin-bottom: 30rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.icon-v {
+  width: 44rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  text-align: center;
+  border-radius: 50%;
+  background: #FF787B;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.avatar .nickname {
+  font-family: PingFangHK-Medium;
+  font-size: 42rpx;
+  color: #272D32;
+  letter-spacing: 2px;
+}
+.nick-label {
+  width: 160rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  background-image: linear-gradient(-45deg, #D33BFF 0%, #3D4FFF 100%);
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 24rpx;
+  margin: 20rpx auto;
+}
+.nav-list {
+  margin-top: 40rpx;
+}
+.nav-item {
+  background:rgba(255, 255, 255, .1);
+  border-radius: 20rpx;
+}
+.nav-label {
+  color: #fff;
+}
+.nav-icon {
+  margin-right: 40rpx;
+}
+.icon-bangding {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/bangding.png);
+}
+.icon-qianbao {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/qianbao.png);
+}
+.icon-zichan {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/zichan.png);
+}
+.icon-renwu {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/renwu.png);
+}
+.icon-panghang {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/paihang.png);
+}
+.icon-yaoqing {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/yaoqing.png);
+}

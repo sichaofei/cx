@@ -1,0 +1,19 @@
+<!--pages/gongzhonghao/gongzhonghao.wxml-->
+<view class="box">
+  <image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/gzh-bg.png' class="head_bg" mode="aspectFit"></image>
+  <view class='intro'>
+    <view class='main_title'>按照如下步骤完成关注微信公众号</view>
+    <view class='sub_title'>即可领取<text class="num">50个</text>贡献度</view>
+    <text class='info'>
+    1. 在微信公众号中搜索“{{name}}”并关注
+    </text>
+    <text class='info'>2.点击{{name}}公众号菜单“个人中心-获取贡献度”获得验证码</text>
+    <text class='info'>3.在下方输入验证码，验证成功后即可领取贡献度</text>
+    <view class='tip'>说明：每个星球账号仅有一次机会</view>
+  </view>
+  <view class='input-title'>请输入6位验证码</view>
+  <form bindsubmit='bindGZH'>
+    <input class='input' name='validateCode' bindinput='yzmChange'/>
+    <button class='button {{ensure}}' form-type='submit'>确定</button>
+  </form>
+</view>

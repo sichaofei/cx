@@ -1,0 +1,83 @@
+input{
+  width:540rpx;
+  height:88rpx;
+  background: #F8F8F8;
+border: 1rpx solid #7F00EE;
+border-radius: 0 49rpx 49rpx 0 ;
+font-size: 30rpx;
+letter-spacing: 3.33rpx;
+text-align: center;
+border-left:0;
+}
+text{
+  background: #F8F8F8;
+  display: block;
+  width:64rpx;
+  height:64rpx;
+  
+  border:1rpx solid #7F00EE;
+  border-top:0;
+  border-right:0;
+  transform:rotate(45deg);
+  position: absolute;
+  left:95rpx;
+  top:14.5rpx;
+}
+.bangdingBody{
+  width:670rpx;
+  margin:80rpx auto;
+}
+.name{
+  width:48rpx;
+  height:49.6rpx;
+}
+.shenfen{
+    width:50rpx;
+  height:38rpx;
+}
+.phone{
+  width:40rpx;
+  height:53rpx;
+}
+.yanzheng{
+  width:44rpx;
+  height:40.2rpx;
+}
+.input{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:40rpx;
+  position: relative;
+}
+.code-btn{
+  text-align: right;
+  margin-right:20rpx;
+font-size: 24rpx;
+color: #7F00EE;
+letter-spacing: 2.67rpx;
+}
+.button{
+  width:560rpx;
+    margin:120rpx auto;
+  font-size: 36rpx;
+  border:0;
+ letter-spacing: 4px;
+  background-image: linear-gradient(-45deg, #D33BFF 0%, #3D4FFF 100%);
+}
+.disabledButton{
+  width:560rpx;
+  height:98rpx;
+  background: #D8D8D8;
+border-radius: 100rpx;
+text-align: center;
+line-height: 100rpx;
+  margin:120rpx auto;
+  color: white;
+  font-size: 36rpx;
+}
+.phcolor{
+color: #B5B5B5;
+font-size:30rpx;
+}

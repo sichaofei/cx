@@ -1,0 +1,142 @@
+/* pages/renwu/renwu.wxss */
+.header {
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqrwbg.png) no-repeat;
+  background-size: 100%;
+  background-position: 0 -110rpx;
+  padding: 26rpx 60rpx;
+  width: 100%;
+  height: 518rpx;
+  margin-bottom: 60rpx;
+}
+.title {
+  font-family: PingFangHK-Medium;
+  font-size: 52rpx;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-bottom: 30rpx;
+  padding-left: 40rpx;
+}
+.label {
+  font-size: 26rpx;
+  color: #6CE0FF;
+  padding-left: 40rpx;
+}
+.count {
+  font-family: PingFangHK-Semibold;
+  font-size: 72rpx;
+  color: #6CE0FF;
+  letter-spacing: 9rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  padding-left: 40rpx;
+}
+.zuan {
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/zuan.png) no-repeat;
+  background-size: 100%;
+  width: 30rpx;
+  height: 24rpx;
+  position: absolute;
+  top: 16rpx;
+  left: 0;
+}
+.tips {
+  font-family: PingFangHK-Regular;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  letter-spacing: 2rpx;
+  margin-left: 40rpx;
+  width:480rpx;
+}
+.renwu-item {
+  display: flex;
+  padding: 0 40rpx 0 30rpx;
+  align-items: center;
+  margin-bottom: 64rpx;
+}
+.item-content {
+  font-family: PingFangHK-Medium;
+  font-size: 26rpx;
+  color: #4A4A4A;
+  letter-spacing: 2rpx;
+  line-height: 37rpx;
+  flex: 1;
+}
+.item-title {
+  font-size: 32rpx;
+  color: #000000;
+  letter-spacing: 1rpx;
+  margin-bottom: 8rpx;
+} 
+.red {
+  color: #FF8EC3;
+}
+.get-btn {
+  border: 1px solid rgba(42,157,255,0.58);
+  border-radius: 8rpx;
+  color: rgba(42,157,255,0.58);
+  width: 124rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+.complete-btn {
+  background: #D8D8D8;
+  border-radius: 8px;
+  padding: 10rpx 16rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  letter-spacing: 2.15rpx;
+}
+.bg-r1 {
+    width: 113rpx; 
+    height: 111rpx; 
+    line-height: 111rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -647rpx -10rpx; 
+}
+.bg-r2 {
+    width: 108rpx; 
+    height: 106rpx;
+    line-height: 106rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -263rpx -10rpx;
+}
+.bg-r3 {
+    width: 108rpx; 
+    height: 97rpx;
+    line-height: 97rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -391rpx -10rpx;
+}
+.bg-r4 {
+    width: 108rpx; 
+    height: 94rpx;
+    line-height: 94rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -519rpx -10rpx;
+}
+.bg-r5 {
+    width: 107rpx; 
+    height: 92rpx;
+    line-height: 92rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -136rpx -10rpx;
+}
+.bg-r6 {
+    width: 106rpx; 
+    height: 99rpx;
+    line-height: 99rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -10rpx -10rpx;
+}
+.bg-r7 {
+    width: 116rpx; 
+    height: 99rpx;
+    line-height: 99rpx;
+    background: url('https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/css_sprites.png') -780rpx -10rpx;
+}
+.item-icon {
+  margin-right: 12rpx;
+  background-size: 906rpx;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: PingFangHK-Medium;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  letter-spacing: 2.46rpx;
+}

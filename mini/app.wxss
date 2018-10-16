@@ -1,0 +1,94 @@
+/**app.wxss**/
+view, text, navigator{
+	box-sizing: border-box;
+  font-family: PingFangSC-Regular;
+}
+.container {
+  height: 100vh;
+  font-size: 22rpx;
+  display:flex;
+  flex-direction:column;
+} 
+.main {
+  flex:1;
+  overflow:auto;
+  padding-bottom: 10rpx;
+}
+.title {
+  font-family: PingFangHK-Medium;
+  font-size: 52rpx;
+  color: #FFFFFF;
+  padding-left: 60rpx;
+  margin-bottom: 40rpx;
+}
+.tabbar-container {
+  height: 98rpx;
+}
+.button {
+  border-radius: 100rpx;
+  color: #fff;
+  width: 630rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.button-plain {
+  background: #3AD48B;
+  box-shadow: 0 11rpx 22rpx 0 rgba(55,108,88,0.23);
+}
+.button-primary {
+  border: 2rpx solid #1BC787;
+  color: #1BC787;
+}
+.nav-item {
+  width: 690rpx;
+  height: 98rpx;
+  box-shadow: 0 5rpx 20rpx 0 rgba(190,210,198,0.24);
+  margin: 0 auto 20rpx;
+  padding: 20rpx 30rpx;
+}
+.nav-item.is-link {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/right-arrow.png);
+  background-size: 11rpx 19rpx;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+.nav-icon {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+  background-size: cover;
+  display: inline-block;
+  vertical-align:middle;
+}
+.nav-label {
+  font-size: 28rpx;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  vertical-align:middle;
+}
+.thead {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F3F4F5;
+	padding: 40rpx 0 35rpx;
+  font-size: 32rpx;
+  color: #272D32;
+  text-align: center;
+}
+.th {
+  border-right: 2rpx solid #d8d8d8;
+}
+.tr {
+	display: flex;
+	justify-content: space-between;
+	padding: 30rpx 0;
+  font-family: PingFangHK-Light;
+  text-align: center;
+  background-image: linear-gradient(transparent, #F3F4F5 50%, #F3F4F5 100%);
+  background-size: 690rpx 2rpx;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}

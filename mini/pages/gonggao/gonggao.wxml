@@ -1,0 +1,7 @@
+<!--pages/gonggao/gonggao.wxml-->
+<view class='container'>
+  <view class='title'>星球公告</view>
+  <navigator class='intro' url='/pages/intro/intro'><text class='icon-intro'></text>星钻产出说明</navigator>
+  <image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/huodong1.png' class='huodong' bindtap='toLoginActive'></image>
+  <image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/huodong2.png' class='huodong'></image>
+</view>

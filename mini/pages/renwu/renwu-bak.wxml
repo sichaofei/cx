@@ -1,0 +1,68 @@
+<!--pages/renwu/renwu.wxml-->
+<view class='renwu-container'>
+  <view class='banner'>
+    <text class='banner-text'>赶紧获取贡献，加速星钻产生
+贡献越多，获取的星钻会越多</text>
+  </view>
+  <view class='renwu-block'>
+    <view class='renwu-title'>
+      <text class='renwu-title-content'>基础任务</text>
+    </view>
+    <view class='renwu-list'>
+      <view class='renwu-item' wx:for="{{list}}" wx:for-index="id" bindtap='toPage' data-complete='{{item.isFollow}}' data-name='{{item.name}}' data-code='{{item.code}}'>
+        <view class='renwu-index'>{{id+1}}</view>
+        <view class='renwu-label'><text>关注公众号+50\n“{{item.name}}”</text></view>
+        <view class='renwu-badge' wx:if="{{!item.isFollow}}">查看</view>
+        <view class='renwu-badge completed' wx:else>已完成</view>
+      </view>
+      <view class='renwu-item'>
+        <view class='renwu-index'>{{list.length + 1}}</view>
+        <view class='renwu-label'><text>每日登录+2</text></view>
+        <view class='renwu-badge completed'>已完成</view>
+      </view>
+    </view>
+  </view>
+  <view class='renwu-block'>
+    <view class='renwu-title'>
+      <text class='renwu-title-content'>长期任务</text>
+    </view>
+    <view class='renwu-list'>
+      <navigator class='renwu-item' url='/pages/index/index'>
+        <view class='renwu-index'>1</view>
+        <view class='renwu-label'><text style='font-size:24rpx'>阅读资讯+5\n每篇+5每天限10篇</text></view>
+        <view class='renwu-badge'>查看</view>
+      </navigator>
+        <view class='renwu-item'>
+        <view class='renwu-index'>2</view>
+        <view class='renwu-label'><text>查违章</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view>
+      <view class='renwu-item'>
+        <view class='renwu-index'>3</view>
+        <view class='renwu-label'><text>查限行</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view>
+      <view class='renwu-item'>
+        <view class='renwu-index'>4</view>
+        <view class='renwu-label'><text>查油价</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view>
+      <view class='renwu-item'>
+        <view class='renwu-index'>5</view>
+        <view class='renwu-label'><text>小微路况</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view>
+      <view class='renwu-item'>
+        <view class='renwu-index'>6</view>
+        <view class='renwu-label'><text>帮买买商城</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view> 
+      <view class='renwu-item'>
+        <view class='renwu-index'>7</view>
+        <view class='renwu-label'><text>小明爱答题</text></view>
+        <view class='renwu-badge'>敬请期待</view>
+      </view> 
+    </view>
+  </view> 
+  <!-- <view class='refresh' bindtap='getList'><text>点击刷新页面，查看任务最新状态</text></view> -->
+</view>

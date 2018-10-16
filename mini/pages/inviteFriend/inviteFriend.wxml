@@ -1,0 +1,18 @@
+<!--pages/inviteFriend/inviteFriend.wxml-->
+<view class="invite_wrap">
+  <view class="ball">
+    <view class="ball_border">
+      <view class="ball_border_inner"></view>
+      <view class="ball_content">
+        <text class="num">已邀请{{pNum}}个</text>
+      </view>
+    </view>
+  </view>
+  <button class="invite_btn" open-type="share">邀请好友</button>
+  <view class="text_content">
+   <text class="text_detail">• 邀请3个好友，奖励30原力</text>
+   <text class="text_detail">• 邀请5个好友，奖励100原力</text>
+   <text class="text_detail">• 邀请10个好友，奖励200原力</text>
+   <text class="text_detail">• 活动日期：2018-9-11至2018-9-23</text>
+  </view>
+</view>

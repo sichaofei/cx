@@ -1,0 +1,19 @@
+<!--pages/huodong/huodong.wxml-->
+<view class='huodong-container'>
+  <swiper 
+    indicator-dots=true
+    indicator-color="rgba(255, 255, 255, .8)" 
+    indicator-active-color="rgba(255, 255, 255, 1)" 
+    previous-margin="60rpx"
+    next-margin="60rpx"
+  >
+    <swiper-item><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></swiper-item>
+    <swiper-item><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></swiper-item>
+    <swiper-item><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></swiper-item>
+  </swiper>
+  <scroll-view scroll-y>
+    <navigator><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></navigator>
+    <navigator><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></navigator>
+    <navigator><image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/news-test.jpg'></image></navigator>
+  </scroll-view>
+</view>

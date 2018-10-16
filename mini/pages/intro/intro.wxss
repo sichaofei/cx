@@ -1,0 +1,102 @@
+/* pages/intro/intro.wxss */
+.container {
+  background: #000;
+  height: 100vh;
+}
+.board-table {
+  background: #FFFFFF;
+  box-shadow: 0 13rpx 27rpx 0 rgba(0,0,0,0.09);
+  border-radius: 8rpx;
+  width: 710rpx;
+  height: 535rpx;
+  position: relative;
+  top: -60rpx;
+  margin: 0 auto;
+  padding: 40rpx;
+}
+.thead {
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #4A4A4A;
+  letter-spacing: 3px;
+  background: #fff;
+  padding: 0 0 20rpx 0;
+}
+.th {
+  border-right: none;
+}
+.tr {
+  font-size: 24rpx;
+  color: #333333;
+  letter-spacing: 0.75px;
+  border-top: 2rpx dotted rgba(181,181,181,.5); 
+  padding: 23rpx 0;
+  background: #fff;
+}
+.w1 {
+  width: 20%;
+  text-align: left;
+}
+.w2 {
+	width: 20%;
+}
+.w3 {
+	width: 60%;
+  border-right: none;
+  text-align: right;
+}
+.thead .w3 {
+  text-align: center;
+}
+.intro-bg {
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/shuomingbg.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1063rpx;
+}
+.intro-title {
+  width: 600rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  margin: 60rpx auto 104rpx;
+  border: 2rpx solid #54C7CE;
+  font-size: 72rpx;
+  color: #6CE0FF;
+  letter-spacing: 9rpx;
+  text-align: center;
+}
+.intro-list {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  letter-spacing: 3rpx;
+  padding: 40rpx;
+}
+.intro-item {
+  margin-bottom: 30rpx;
+  padding-left: 36rpx;
+  position: relative;
+}
+.intro-icon {
+  display: inline-block;
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 16rpx;
+  left: 0;
+}
+.intro-item:nth-child(1) .intro-icon{
+  background-image: linear-gradient(-206deg, #80DCFF 0%, #2148C3 99%, #2047C3 100%);
+}
+.intro-item:nth-child(2) .intro-icon{
+  background-image: linear-gradient(-49deg, #00C36C 0%, #6CFD82 53%, #ECFF0F 100%);
+}
+.intro-item:nth-child(3) .intro-icon{
+  background-image: linear-gradient(-217deg, #FAD961 0%, #F7361C 100%);
+}
+.intro-item:nth-child(4) .intro-icon{
+  background-image: linear-gradient(-199deg, #FFCD00 0%, #FF9F00 97%);
+}
+.intro-item:nth-child(5) .intro-icon{
+  background-image: linear-gradient(-45deg, #D33BFF 0%, #3D4FFF 100%);
+}

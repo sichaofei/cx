@@ -1,0 +1,4 @@
+<!--pages/save/save.wxml-->
+<image src='{{img}}'></image>
+<button bindtap='save' class='save-btn'>保存到相册</button>
+<text bindtap='back' class='back-btn'>返回</text>

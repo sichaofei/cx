@@ -1,0 +1,26 @@
+<view class="xingzuanBody">
+<view class='xingzuanjilu'>
+<view class='left'>
+星钻
+<view>12.413244</view>
+</view>
+<view class='right'>
+  <button bindtap='toduihuan'>兑换</button>
+</view>
+</view>
+<view class='xingzuanNav'>
+<view class='xingzuanHead'>
+星钻简介
+</view>
+<view class='xingzuanCon'>
+<view>星钻是依托于区块链技术，基于个人星球活动产生的奖励，可以用于星球上的消费与兑换等。</view>
+<view>除日常根据贡献度生长星钻之外，贡献度大于100的用户有机会获取额外的星钻大奖。48小时不领取星钻将暂停生长。</view>
+<view>星钻总量有限，且每2年产出量减少一半，随着时间的推移获取难度越来越大，前期参与更有优势。</view>
+</view>
+</view>
+<view class='xingzuanshouzhi'>
+  <view class='xingzuanshouzhiHead'>
+  收支记录
+  </view>
+</view>
+</view>

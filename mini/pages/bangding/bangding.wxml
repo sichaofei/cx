@@ -1,0 +1,38 @@
+<!--pages/bangding/bangding.wxml-->
+<view class='bangdingBody'>
+  <!-- <view class='banner-bg'>
+    <view class='avatar'>
+      <view class='avatar-image'><open-data type="userAvatarUrl" style="clip-path: circle(75rpx at center);display:block;width:150rpx;height:150rpx;"></open-data></view>
+    </view>
+    <view class='banner-bottom'></view>
+  </view> -->
+  <form bindsubmit='submit'>
+    <view class='input-block'>
+      <view class='input'>
+        <image class='name' src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/icon-username.png'></image>
+        <text></text>
+        <input adjust-position="true" placeholder-class="phcolor" placeholder='{{placeholder[0]}}' bindinput='name' name='username' data-id="0" bindfocus="focus" bindblur="blur"></input>
+      </view>
+      <view class='input'>
+        <image class='shenfen' src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/icon-identity.png'></image>
+        <text></text>
+        <input adjust-position="true" placeholder-class="phcolor" bindinput='shenfen' placeholder='{{placeholder[1]}}' bindblur="blur" name='identify' data-id="1" bindfocus="focus"></input>
+      </view>
+      <view class='input'>
+        <image class='phone' src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/icon-phone.png'></image>
+        <text></text>
+        <input adjust-position="true" placeholder-class="phcolor" placeholder='{{placeholder[2]}}' name='phone' bindinput='bindinput' data-id="2" bindfocus="focus" bindblur="blur"></input>
+      </view>
+      <view class='code-block'>
+        <view class='input'>
+          <image class='yanzheng' src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/icon-verify.png'></image>
+          <text></text>
+          <input adjust-position="true" placeholder-class="phcolor" bindinput='yanzheng' placeholder='{{placeholder[3]}}' data-id="3" class='code-input'  name='code' bindfocus="focus" bindblur="blur"></input>
+        </view>
+        <view class='code-btn' bindtap='getCode' disabled='{{disable}}'>{{btnTxt}}</view>
+      </view>
+    </view>
+    <button hidden='{{selected}}' class="button" form-type='submit'>绑定</button>
+    <view hidden='{{!selected}}' class='disabledButton'>绑定</view>
+  </form>
+</view>

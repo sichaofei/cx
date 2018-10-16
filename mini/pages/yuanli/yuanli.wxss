@@ -1,0 +1,75 @@
+/* pages/yuanli/yuanli.wxss */
+.gongxianBody{
+  width:670rpx;
+  margin:30rpx auto;
+  font-family: PingFangSC-Medium;
+} 
+.gongxianNum{
+  width:100%;
+  height:240rpx;
+  padding-top:48rpx;
+  padding-left:60rpx;
+  color:white;
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/v2/jilubg.png);
+  background-size: 670rpx 240rpx;
+}
+.gongxianNum .left{
+font-size: 28rpx;
+letter-spacing: 1.56rpx;
+}
+.gongxianNum .left>view{
+  font-size: 64rpx;
+letter-spacing: 3.56rpx;
+  height:90rpx;
+  line-height: 90rpx;
+}
+.gongxianNavHead{
+  font-weight: 600;
+}
+.gongxianNav{
+  margin-top:40rpx;
+  font-size: 42rpx;
+color: #7F00EE;
+letter-spacing: 2.33rpx;
+}
+.gongxianCon{
+  margin-top:50rpx;
+  font-size: 32rpx;
+color: #333333;
+letter-spacing: 3rpx;
+line-height: 52rpx;
+}
+.gongxianjiluHead{
+  font-size: 42rpx;
+color: #7F00EE;
+letter-spacing: 2.33rpx;
+font-weight: 600;
+font-family: PingFangSC-Medium;
+}
+.gongxainjilu{
+  margin-top:50rpx;
+}
+.gongxianList{
+  margin-top:37rpx;
+  width:100%;
+}
+.gongxianList view{
+  padding-right:10rpx;
+  width:100%;
+  display: flex;
+  font-size: 34rpx;
+color: #333333;
+letter-spacing: 1.89rpx;
+  justify-content:space-between;
+  border-bottom: 1px solid #D8D8D8;
+  height:117rpx;
+  align-items: center;
+}
+.gongxianList view text{
+  font-size: 34rpx;
+color: #000000;
+letter-spacing: 1.89rpx;
+}
+.gongxianList view:last-child{
+  border: 0;
+}

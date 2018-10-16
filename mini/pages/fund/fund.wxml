@@ -1,0 +1,44 @@
+<!--pages/fund/fund.wxml-->
+<view>
+  <view class='fund-block'>
+    <view class='fund-pannel'>
+      <view class='pannel-label'>星钻总数</view>
+      <view class='pannel-count'>{{amount}}</view>
+      <!-- <view class='dongjie'>冻结IOV数：0.00023</view>
+      <view class='subtitle'>
+        <text>约$:  0.33</text>
+        <view style='font-size:24rpx'>市值估算仅供参考</view>
+      </view> -->
+    </view>
+    <!-- <view class='button button-primary'>提 现</view> -->
+  </view>
+  <view class='fund-intro'>
+    <!-- <view class='intro-title'>·简介·</view>
+    <view class='intro-content'>
+      <text>车主币是基于交通公链开发的汽车生活社交场景功能TOKEN，不仅仅具备流通价值，更与交通公链上的服务相集成，用户可以使用该TOKEN再平台上使用相应功能。\n\n</text>
+      <text>如分享攻略，社交互动，LBS应用，资讯阅读，社交点赞，商业活动等多场景进行结算，实现车联网生态社区的价值平衡和繁荣共建。</text>
+    </view> -->
+      <view class='intro-list'>
+      <view class='intro-item'>
+        <text class='intro-icon'></text>
+        <text>星钻是车主星系基于区块链概念开发，基于个人在车主星系中参与活动而产生的奖励。可以用于车主星系里的消费和兑换。</text>
+      </view>
+      <view class='intro-item'>
+        <text class='intro-icon'></text>
+        <text>星钻于2018年9月24日开始生成。</text>
+      </view>
+      <view class='intro-item'>
+        <text class='intro-icon'></text>
+        <text>每日固定时间星钻会产出。根据用户的贡献度多少来分配给每个用户。</text>
+      </view>
+      <view class='intro-item'>
+        <text class='intro-icon'></text>
+        <text>贡献度越高，当日可以领取的星钻数量越多。</text>
+      </view>
+      <view class='intro-item'>
+        <text class='intro-icon'></text>
+        <text>此外用户在参与活动时也可以直接获得星钻。</text>
+      </view>
+    </view>
+  </view>
+</view>

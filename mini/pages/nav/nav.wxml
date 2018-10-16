@@ -1,0 +1,5 @@
+<!--pages/nav/nav.wxml-->
+<image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/car.png'></image>
+<text>车托帮查违章提供全国300多个城市的交通违章查询服务。更有车辆违章记录查询代办一站式服务，是全国优质的违章查询代办系统。</text>
+<navigator class='back' bindtap='back'></navigator>
+

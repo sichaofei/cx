@@ -1,0 +1,37 @@
+/* pages/newsdetail/newsdetail.wxss */
+@import "../../utils/wxParse/wxParse.wxss";
+.news-container {
+  padding: 50rpx;
+}
+.news-title {
+  font-family: PingFangSC-Light;
+  font-size: 50rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.news-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: PingFangSC-Light;
+  font-size: 30rpx;
+  color: #666666;
+  letter-spacing: 0;
+  margin: 20rpx 0 50rpx;
+}
+.news-content image {
+  width: 100%;
+}
+.share {
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/share.png);
+  background-size: 50rpx 50rpx;
+  background-repeat: no-repeat;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding-left: 60rpx;
+  font-size: 26rpx;
+  margin-top: 40rpx;
+}
+.reading {
+  font-size: 24rpx;
+  color: #999;
+}

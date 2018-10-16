@@ -1,0 +1,47 @@
+/* pages/active/active.wxss */
+
+.loginTime {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginTime .selected {
+  color: white;
+  background-image: linear-gradient(-45deg, #d33bff 0%, #3d4fff 100%);
+}
+
+.loginTime view {
+  font-size: 32rpx;
+  color: #9b9b9b;
+  letter-spacing: 0;
+  width: 82rpx;
+  height: 82rpx;
+  margin-right: 36rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  line-height: 82rpx;
+  border: 1rpx solid #d8d8d8;
+  border-radius: 50%;
+}
+
+.loginTime view:nth-child(6) {
+  margin-right: 0;
+}
+
+.activeBody {
+  font-family: PingFangSC-Medium;
+  width: 672rpx;
+  margin: 40rpx auto;
+}
+
+.explainLogin {
+  margin-top: 80rpx;
+  font-size: 28rpx;
+  color: #333;
+  letter-spacing: 1.56rpx;
+}
+
+.explainLogin view {
+  margin-top: 40rpx;
+}

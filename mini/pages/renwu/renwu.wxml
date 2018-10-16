@@ -1,0 +1,43 @@
+<view>
+  <view class='header'>
+    <view class='title'>星球任务</view>
+    <view class='label'>贡献度：</view>
+    <view class='count'>{{forceValue}}</view>
+    <view class='tips'>做任务可以获得贡献度，贡献度越高，获取的星钻会越多…</view>
+  </view>
+  <view class='renwu-list'>
+    <view class='renwu-item' wx:for="{{list}}" wx:for-index="id" bindtap='toPage' data-complete='{{item.isFollow}}' data-name='{{item.name}}' data-code='{{item.code}}'>
+      <view class='item-icon bg-r{{id+1}}'>T{{id+1}}</view>
+      <view class='item-content'>
+        <view class='item-title'>关注公众号“{{item.name}}”</view>
+        <view><text class='red'>+50</text>贡献度</view>
+      </view>
+      <view class='get-btn' wx:if="{{!item.isFollow}}">+获取</view>
+      <view class='complete-btn' wx:else>已完成</view>
+    </view>
+     <view class='renwu-item'>
+      <view class='item-icon bg-r6'>T6</view>
+      <view class='item-content'>
+        <view class='item-title'>每日登录</view>
+        <view><text class='red'>+2</text>贡献度</view>
+      </view>
+      <view class='complete-btn'>已完成</view>
+    </view>
+    <view class='renwu-item'>
+      <view class='item-icon bg-r7'>T7</view>
+      <view class='item-content'>
+        <view class='item-title'>阅读资讯</view>
+        <view><text class='red'>+5</text>贡献度/篇，限10篇/天</view>
+      </view>
+      <view class='complete-btn'>敬请期待</view>
+    </view>
+    <!-- <navigator class='renwu-item' target="miniProgram" app-id='wxa04cb73102636916' bindcomplete='toOther'>
+      <view class='item-icon bg-r7'>R8</view>
+      <view class='item-content'>
+        <view class='item-title'>前往小程序</view>
+        <view><text class='red'>+5</text>贡献度</view>
+      </view>
+      <view class='get-btn'>+获取</view>
+    </navigator> -->
+  </view>
+</view>

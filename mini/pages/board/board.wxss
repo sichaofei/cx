@@ -1,0 +1,45 @@
+/* pages/board/board.wxss */
+.board-title {
+	padding: 18rpx 30rpx;
+}
+.board-title-text {
+  font-size: 28rpx;
+  color: #000014;
+  line-height: 40rpx;
+}
+.board-title-label {
+	font-size: 28rpx;
+  color: #FFFFFF;
+  background: #3AD48B;
+  border-radius: 6rpx;
+  padding: 7rpx 19rpx;
+}
+.board-table {
+	font-size: 28rpx;
+  color: #9B9B9B;
+}
+.tr0 {
+  color: #1BC787;
+}
+.tr1 {
+  color: #FF913A;
+}
+.tr2 {
+  color: #FF5368;
+}
+.w1 {
+	width: 303rpx;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.w2 {
+	width: 450rpx;
+}
+.w3 {
+	width: 342rpx;
+}
+.w4 {
+	width: 405rpx;
+  border-right: none;
+}

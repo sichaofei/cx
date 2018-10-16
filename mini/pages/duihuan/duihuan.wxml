@@ -1,0 +1,17 @@
+<!--pages/duihuan/duihuan.wxml-->
+<view class='container'>
+<scroll-view class="main" scroll-y bindscrolltolower="reachBottom">
+  <view class='title'>星球兑换</view>
+  <view class='zuan-count'>2018年9月24日发放星钻，贡献越多星钻越多。</view>
+  <view class='baoxiang'>开宝箱 即将开启</view>
+  <view class='prod-list'>
+    <view class='prod-item' wx:for='{{list}}' bindtap='toProd' id='{{item.goodsId}}'>
+      <image src='{{item.coverImage}}' class='item-image'></image>
+      <view class='item-title'>{{item.goodsName}}</view>
+      <view class='item-count'>剩余{{item.stockNumber}}件</view>
+      <view class='item-zuan'>{{item.tokenNumber}}</view>
+      <view class='dh-btn'>星钻兑换</view>
+    </view>
+  </view>
+</scroll-view>
+</view>

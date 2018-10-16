@@ -1,0 +1,67 @@
+/* pages/inviteFriend/inviteFriend.wxss */
+.ball{
+  position: relative;
+  width: 316rpx;
+  height: 316rpx;
+  margin: 80rpx auto 0;
+  opacity: 0.8
+}
+.ball .ball_border{
+  width: 316rpx;
+  height: 316rpx;
+  border-radius: 50%;
+  position: relative;
+  background: linear-gradient(#3D4FFF , #D33BFF); /* 标准的语法 */
+}
+.ball .ball_border_inner{
+  width: 304rpx;
+  height: 304rpx;
+  background:#fff;
+  border-radius: 50%;
+  position:  absolute;
+  top:7rpx;
+  left:7rpx;
+}
+.ball .ball_content{
+  width: 286rpx;
+  height: 286rpx;
+  border-radius: 50%;
+  background: linear-gradient(#3D4FFF , #D33BFF); /* 标准的语法 */
+  position: absolute;
+  top:15rpx;
+  left:15rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.num{
+  font-size: 34rpx;
+  letter-spacing: 2rpx;
+  color:#fff;
+  text-align: center;
+}
+.invite_btn{
+  width: 600rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  color:#fff;
+  background-image: linear-gradient(to right, #753BFF 0%, #E968FF 100%);
+  box-shadow: 0 4px 10px 0 rgba(87,63,108,0.47);
+  border-radius: 100px;
+  margin: 60rpx auto 40rpx;
+  font-size: 32rpx;
+  letter-spacing: 4rpx;
+}
+.text_content{
+  width: 670rpx;
+  margin:0 auto;
+}
+.text_detail{
+  display: block;
+  font-size: 28rpx;
+  color:#333;
+  margin-top: 20rpx;
+  line-height: 80rpx;
+  letter-spacing: 2rpx;
+}

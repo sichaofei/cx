@@ -1,0 +1,27 @@
+/* pages/nav/nav.wxss */
+page {
+  padding: 60rpx;
+}
+image {
+  width: 630rpx;
+  display: block;
+}
+text {
+  font-family: PingFangSC-Light;
+  font-size: 38rpx;
+  color: #4A4A4A;
+  letter-spacing: 4rpx;
+  line-height: 56rpx;
+  margin-top: 60rpx;
+  display: block;
+  width: 630rpx;
+}
+.back {
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/news/back.png) no-repeat;
+  background-size: contain;
+  width: 138rpx;
+  height: 138rpx;
+  position: fixed;
+  bottom: 80rpx;
+  left: 40rpx;
+}

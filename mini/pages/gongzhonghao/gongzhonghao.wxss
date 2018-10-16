@@ -1,0 +1,62 @@
+/* pages/gongzhonghao/gongzhonghao.wxss */
+.box{
+  background-color: #fff;
+  padding-bottom: 60rpx;
+}
+.head_bg{
+  width: 100%;
+}
+.intro {
+  padding: 40rpx;
+}
+.main_title {
+  padding-left: 0;
+  font-size: 36rpx;
+  color:#333;
+  line-height: 50rpx;
+}
+.sub_title{
+  font-size: 28rpx;
+  color:#151515;
+  line-height: 50rpx;
+}
+.sub_title .num{
+  color:#ff97c7;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+}
+.info {
+  display: block;
+  font-size: 28rpx;
+  color: #151515;
+  line-height: 50rpx;
+  margin-bottom: 28rpx;
+}
+.tip {
+  border-top: 1px dotted #979797;
+  font-size: 28rpx;
+  color: #5A616B;
+  padding: 20rpx 0;
+  margin-top: 56rpx;
+  line-height: 90rpx;
+}
+.input-title {
+  font-size: 42rpx;
+  color: #333;
+  margin-top: 5rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+}
+.input {
+  border-bottom: 1px solid #000;
+  margin: 80rpx 60rpx 120rpx;
+  text-align: center;
+}
+.button.ensure{
+  background-image: linear-gradient(to left, #3D4FFF 40%, #D33BFF 100%);
+}
+.button{
+  font-size: 36rpx;
+  letter-spacing: 4rpx;
+  background-color: #d8d8d8;
+}

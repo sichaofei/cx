@@ -1,0 +1,28 @@
+<!--pages/newsdetail/newsdetail.wxml-->
+<import src="../../utils/wxParse/wxParse.wxml" />
+<view class='news-container'>
+  <view class='news-title'>{{detail.title}}</view>
+  <view class='news-info'>
+    <view class='author'>文／{{detail.author}}</view>
+    <view class='time'>{{detail.createTime}}</view>
+  </view>
+  <view class='news-content'>
+    <navigator wx:for="{{detail.weiXinSubApp}}" 
+    wx:if="{{item.position == 1}}" 
+    app-id="{{item.subAppId}}" 
+    path="{{item.pageUrl}}"
+    target="miniProgram">
+    <image src='{{item.linkImage}}'></image>
+    </navigator> 
+    <template is="wxParse" data="{{ wxParseData: wxParseDescription.nodes }}" />
+    <navigator wx:for="{{detail.weiXinSubApp}}" 
+    wx:if="{{item.position == 2}}" 
+    app-id="{{item.subAppId}}" 
+    path="{{item.pageUrl}}"
+    target="miniProgram">
+    <image src='{{item.linkImage}}'></image>
+    </navigator> 
+  </view>
+  <view class="reading">阅读 {{detail.reading}}</view>
+  <view wx:if="{{detail.qrcodeImage}}" class='share' bindtap='toSave'>分享</view> 
+</view>

@@ -1,0 +1,36 @@
+/* pages/gonggao/gonggao.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqggbg.png);
+  background-size: 100%;
+  padding-top: 40rpx;
+}
+.intro {
+  background: #6CE0FF;
+  box-shadow: 0 4rpx 12rpx 0 #1A4855;
+  border-radius: 100rpx;
+  width: 670rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32rpx;
+  color: #321284;
+  letter-spacing: 3px;
+}
+.icon-intro {
+  width: 40rpx;
+  height: 40rpx;
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/guangbo.png) no-repeat;
+  background-size: 100%;
+  margin-right: 17rpx;
+  display: inline-block;
+  position:relative;
+  top:10rpx;
+}
+.huodong {
+  width: 670rpx;
+  height: 280rpx;
+  margin: 40rpx auto 30rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/wait/wait.wxml-->
+<view>
+  <image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/zongzi/wait.png'></image>
+</view>

@@ -1,0 +1,15 @@
+/* pages/save/save.wxss */
+.save-btn {
+  background: red;
+  width: 80%;
+  border: none;
+  border-radius: 46rpx;
+  margin-bottom: 40rpx;
+  color: #fff;
+}
+.back-btn {
+  color: red;
+  text-align:center;
+  width:100%;
+  display:block;
+}

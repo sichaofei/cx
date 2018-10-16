@@ -1,0 +1,22 @@
+<!--pages/board/board.wxml-->
+<view	class="board-title">
+  <text class="board-title-label">头条</text>
+  <text class="board-title-text"> ：IOV车联网币防伪公告 </text>
+</view>
+<view class="board-table">
+  <view class="thead">
+    <view class="th w1">名次</view>
+    <view class="th w2">普通黑钻</view>
+    <view class="th w3">幸运钻</view>
+    <view class="th w4">总黑钻</view>
+  </view>
+  <view class="tr tr{{idx}}" wx:for="{{list}}" wx:for-item="item" wx:for-index="idx">
+    <view class="td w1">
+      <text>{{idx+1}}. </text>
+      <text>{{item.name}}</text>
+    </view>
+    <view class="td w2">{{item.count1}}</view>
+    <view class="td w3">{{item.count2}}</view>
+    <view class="td w4">{{item.count3}}</view>
+  </view>
+</view>

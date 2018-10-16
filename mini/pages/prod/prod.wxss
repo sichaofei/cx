@@ -1,0 +1,105 @@
+/* pages/prod/prod.wxss */
+.container {
+  background: #f8f8f8;
+}
+swiper {
+  width: 750rpx;
+  height: 750rpx;
+}
+swiper-item {
+  text-align: center;
+  line-height: 750rpx;
+}
+swiper-item image {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  display: block;
+}
+.prod-info {
+  padding: 20rpx 40rpx 26rpx 60rpx;
+  background: #fff;
+}
+.prod-name {
+  font-size: 38rpx;
+  color: #333333;
+  margin-bottom: 8rpx;
+}
+.prod-count {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #9B9B9B;
+}
+.prod-count text {
+  color: #000000;
+}
+.prod-zuan {
+  padding-left: 40rpx;
+  font-size: 24rpx;
+  color: #7F00EE;
+  letter-spacing: 1.5px;
+  background: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/zuan2.png) no-repeat;
+  background-size: 30rpx;
+  background-position:left center;
+}
+.record-list {
+  margin-top: 20rpx;
+  padding: 32rpx 40rpx;
+  background: #fff;
+  padding-bottom: 240rpx;
+}
+.record-title {
+  font-size: 30rpx;
+  color: #7F00EE;
+  margin-bottom: 20rpx;
+}
+.icon-title {
+  background-image: linear-gradient(-45deg, #D33BFF 0%, #3D4FFF 100%);
+  width: 7rpx;
+  height: 28rpx;
+  margin-right: 20rpx;
+  display:inline-block;
+  vertical-align:middle;
+}
+.record-item {
+  padding: 10rpx 0;
+  border-bottom: 2rpx solid #D7D9DB;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #333333;
+  align-items: center;
+}
+.item-name {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.item-name image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 26rpx;
+}
+.bottom {
+  width: 100%;
+  height: 240rpx;
+  background: #F8F8F8;
+  position: fixed;
+  bottom: 0;
+  font-size: 24rpx;
+  color: #9B9B9B;
+  text-align: center;
+  padding-top: 40rpx;
+}
+.dh-btn {
+  background-image: linear-gradient(-45deg, #D33BFF 0%, #3D4FFF 100%);
+  border-radius: 100rpx;
+  width: 630rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  margin: 20rpx auto;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  text-align: center;
+}

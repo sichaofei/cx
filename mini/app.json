@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/active/active",
+    "pages/bangding/bangding",
+    
+    "pages/yuanli/yuanli",
+    "pages/wallet/wallet",
+    "pages/my/my",
+    "pages/gonggao/gonggao",
+    "pages/duihuan/duihuan",
+    "pages/prod/prod",
+    "pages/renwu/renwu",
+    "pages/intro/intro",
+    "pages/gongzhonghao/gongzhonghao",
+    "pages/fund/fund",
+    "pages/newsdetail/newsdetail",
+    "pages/yaoqing/yaoqing",
+    "pages/board/board",
+    "pages/logs/logs",
+    "pages/webview/webview",
+    "pages/wait/wait",
+    "pages/save/save",
+    "pages/nav/nav",
+    "pages/inviteFriend/inviteFriend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#1c054c",
+    "navigationBarBackgroundColor": "#1c054c",
+    "navigationBarTitleText": "车主星系",
+    "navigationBarTextStyle": "white"
+  }
+}

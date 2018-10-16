@@ -1,0 +1,27 @@
+<!--pages/yuanli/yuanli.wxml-->
+<view class='gongxianBody'>
+<view class='gongxianNum'>
+  <view class='left'>
+  贡献度
+ <view>{{forceValue}}</view>
+</view>
+</view>
+<view class='gongxianNav'>
+  <view class='gongxianNavHead'>
+  贡献度简介
+  </view>
+  <view class='gongxianCon'>
+  贡献度是用户获取星钻的影响因子，同一时间段内，贡献度越高，获取的星钻越多。贡献度可以通过在星球上进行阅读咨询,使用车主工具等活动获得，由于目前星球基地正在前期搭建中，未来将支持更多的贡献度获取方式。
+  </view>
+</view>
+<view class='gongxainjilu'>
+ <view class='gongxianjiluHead'>
+  贡献度记录
+  </view>
+  <view class='gongxianList'>
+    <view wx:for="{{list}}" wx:for-item wx:for-index>
+    {{index}} <text>+{{item}}</text>
+    </view>
+  </view>
+</view>
+</view>

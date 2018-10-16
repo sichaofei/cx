@@ -1,0 +1,47 @@
+<!--pages/my.wxml-->
+<view class="container">
+  <view>
+    <view class='title'>我的基地</view>
+    <view class='banner'>
+      <view class='avatar'>
+        <view class='avatar-wrapper'>
+          <view class='avatar-image'>
+            <open-data type="userAvatarUrl" style="clip-path: circle(72rpx at center);display:block;"></open-data>
+          </view>
+          <view class='icon-v'>v</view>
+        </view>
+        <open-data type="userNickName" class='nickname'></open-data>
+        <view class='nick-label'>星球居民</view>
+      </view>
+    </view>
+    <view class='nav-list'>
+      <navigator url="/pages/bangding/bangding" class='nav-item is-link' wx:if="{{!isBind}}">
+        <view class='nav-icon icon-bangding'></view>
+        <text class='nav-label'>身份绑定</text>
+      </navigator>
+      <navigator url="/pages/renwu/renwu" class='nav-item is-link'>
+        <view class='nav-icon icon-renwu'></view>
+        <text class='nav-label'>任务</text>
+      </navigator>
+      <navigator url="/pages/fund/fund" class='nav-item is-link'>
+        <view class='nav-icon icon-zichan'></view>
+        <text class='nav-label'>资产</text>
+      </navigator>
+      <!-- <navigator url="/pages/wallet/wallet" class='nav-item is-link'> -->
+      <!-- <navigator url="/pages/wait/wait" class='nav-item is-link'>
+        <view class='nav-icon icon-qianbao'></view>
+        <text class='nav-label'>钱包</text>
+      </navigator> -->
+      <!-- <navigator url="/pages/board/board" class='nav-item is-link'> -->
+      <!-- <navigator url="/pages/wait/wait" class='nav-item is-link'>
+        <view class='nav-icon icon-panghang'></view>
+        <text class='nav-label'>排行榜</text>
+      </navigator> -->
+      <!-- <navigator url="/pages/yaoqing/yaoqing" class='nav-item is-link'>
+        <view class='nav-icon icon-yaoqing'></view>
+        <text class='nav-label'>邀请码</text>
+      </navigator> -->
+    </view>
+  </view>
+  <!-- <tabbar current="1" class="tabbar-container"></tabbar> -->
+</view>

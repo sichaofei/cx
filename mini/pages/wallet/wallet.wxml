@@ -1,0 +1,25 @@
+<!--pages/wallet/wallet.wxml-->
+<view>
+  <view class='banner'>
+    <text>APP被删除后在其他手机上使用钱包时，需导入当前钱包备份私钥，则可能永久丢失钱包资产，请务必备份好钱包，并妥善保管备份信息。</text>
+    <view class='banner-img'></view>
+  </view>
+  <view>
+    <view class='nav-item'>
+      <view class='nav-icon icon-qianzhang'></view>
+      <text class='nav-label'>钱包账号</text>
+      <text class='nav-value'>Dabaimei</text>
+    </view>
+    <view class='nav-item'>
+      <view class='nav-icon icon-qianzi'></view>
+      <text class='nav-label'>钱包资产（GXS）</text>
+      <text class='nav-value'>0.00</text>
+    </view>
+    <view class='nav-item is-link'>
+      <view class='nav-icon icon-siyao'></view>
+      <text class='nav-label'>私钥</text>
+    </view>
+  </view>
+  <view class='button button-plain'>复制邀请码</view>
+  <view class='button button-primary'>提 现</view>
+</view>

@@ -1,0 +1,7 @@
+/* pages/huodong/huodong.wxss */
+.huodong-container {
+  background: #f3f4f5;
+}
+scroll-view {
+  padding: 0 30rpx;
+}

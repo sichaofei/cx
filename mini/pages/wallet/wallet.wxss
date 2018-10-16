@@ -1,0 +1,35 @@
+/* pages/wallet/wallet.wxss */
+.banner {
+  font-family: PingFangSC-Light;
+  font-size: 28rpx;
+  color: #4A4A4A;
+  line-height: 48rpx;
+  width: 610rpx;
+  margin: 30rpx auto 80rpx;
+}
+.banner-img {
+  width: 200rpx;
+  height: 200rpx;
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/qianbaotu.png);
+  background-size: cover;
+  margin: 40rpx auto;
+}
+.button-plain {
+  margin: 40rpx auto;
+}
+.icon-qianzhang {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/qianzhang.png);
+}
+.icon-qianzi {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/qianzi.png);
+}
+.icon-siyao {
+  background-image: url(https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/siyao.png);
+}
+.nav-value {
+  float: right;
+  font-size: 28rpx;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height:58rpx;
+}

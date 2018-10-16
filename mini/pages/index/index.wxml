@@ -1,0 +1,92 @@
+<view class='index-wrapper'>
+  <canvas canvas-id='bg0' class='bg0' class='bg0'>
+  </canvas>
+  <canvas canvas-id='circles' class='bg'>
+  </canvas>
+  <canvas canvas-id='bg' class='bg'>
+  </canvas>
+  <canvas canvas-id='metero' class='bg' style='backgroun:#fff'>
+  </canvas>
+  <canvas canvas-id='wave' class='wave'>
+  </canvas>
+  <cover-view class='index-head'>
+    <cover-view class='head-item'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/zuan1.png' class='icon-zuan'></cover-image>
+      <cover-view class='zuan'>星钻：0.0</cover-view>
+    </cover-view>
+    <cover-view class='head-item' bindtap='toYuanli'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/zuan3.png' class='icon-zuan' style='width:40rpx;height:38rpx'></cover-image>
+      <cover-view>贡献度：
+        <cover-view style='display:inline-block;width:100rpx;vertical-align:middle;'>{{forceValue}}</cover-view>
+      </cover-view>
+    </cover-view>
+  </cover-view>
+  <cover-view wx:if="{{isShow}}" class='planet-list'>
+    <cover-image src='/images/metero.png' style='position:absolute;top:80rpx;left:300rpx;width:90rpx;height:60rpx;'></cover-image>
+    <cover-image src='/images/metero2.png' style='position:absolute;top:760rpx;left:40rpx;width:90rpx;height:60rpx;'></cover-image>
+    <cover-view id='ball' bindtap='showTip'>
+      <cover-view style='margin-bottom:20rpx'>距离发放星钻</cover-view>
+      <cover-view style='display:flex;padding-left:120rpx;'>
+        <cover-view>还剩</cover-view>
+        <cover-view class='day'>{{countDown}}</cover-view>
+        <cover-view>天</cover-view>
+      </cover-view>
+      <cover-view style='font-size:28rpx;color:rgba(255,255,255,.5);margin-top:20rpx;'>贡献越多，星钻越多</cover-view>
+    </cover-view>
+
+    <cover-view class='planet-item intro' bindtap='toGonggao'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqgg.png' class='planet-icon'></cover-image>
+      <cover-view class='planet-label'>星球公告.</cover-view>
+    </cover-view>
+    <cover-view class='planet-item renwu' bindtap='toRenwu'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqrw.png' class='planet-icon'></cover-image>
+      <cover-view class='planet-label'>星球任务.</cover-view>
+    </cover-view>
+    <cover-view class='planet-item duihuan' bindtap='toDuihuan'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/xqdh.png' class='planet-icon'></cover-image>
+      <cover-view class='planet-label'>星球兑换.</cover-view>
+    </cover-view>
+    <cover-view class='planet-item my' bindtap='toMy'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/wdjd.png' class='planet-icon'></cover-image>
+      <cover-view class='planet-label'>我的基地.</cover-view>
+    </cover-view>
+    <cover-view class='tips' hidden='{{isTips}}'>9月24日发放星钻，快去做任务吧</cover-view>
+  </cover-view>
+  <cover-view class='zuan-list' wx:else>
+    <cover-view wx:for='{{array}}' style='top: {{zuanPos[index][1]}}rpx; left: {{zuanPos[index][0]}}rpx;' class='zuan-item' wx:key='{{index}}' bindtap='receive' data-id='{{index}}'>
+      <cover-image src='https://cms-img.oss-cn-hangzhou.aliyuncs.com/wechat/planet/icon-zuan.png' class='zuan-icon'></cover-image>
+      <cover-view>{{item.amount}}</cover-view>
+    </cover-view>
+  </cover-view>
+  <cover-view class='yindao1' hidden="{{hidden1}}">
+    <cover-view class='bodyBg'>
+      <cover-image src='../../images/mengceng.png'></cover-image>
+    </cover-view>
+    <cover-view class='jiantou'>
+      <cover-image src='../../images/jiantou.png'></cover-image>
+    </cover-view>
+    <cover-view class='shouqu'>
+      <cover-image src='../../images/djcc.png'></cover-image>
+    </cover-view>
+    <cover-view class='zd' bindtap='hiddenF1'>
+      <cover-image src='../../images/zd.png'></cover-image>
+    </cover-view>
+  </cover-view>
+  <cover-view class='yindao2' hidden="{{hidden2}}">
+    <cover-view class='jiantou2'>
+      <cover-image src='../../images/jiantou2.png'></cover-image>
+    </cover-view>
+    <cover-view class='mengceng2'>
+      <cover-image src='../../images/mengceng2.png'></cover-image>
+    </cover-view>
+    <cover-view class='wenzi2'>
+      <cover-image src='../../images/xinzuan.png'></cover-image>
+    </cover-view>
+    <cover-view class='zd' bindtap='hiddenF2'>
+      <cover-image src='../../images/zd.png'></cover-image>
+    </cover-view>
+    <cover-view class="{{model==1 ?'iphonex':''}}">
+    </cover-view>
+  </cover-view>
+
+</view>

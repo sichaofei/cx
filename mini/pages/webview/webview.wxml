@@ -1,0 +1,2 @@
+<!--pages/webview/webview.wxml-->
+<web-view src="https://bqtv.chetuobang.com/index.html?from=mini"></web-view>
